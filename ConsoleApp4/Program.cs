@@ -19,7 +19,7 @@ namespace CodeWars
             int[] dupeArray = { 1, 2, 1, 1, 3, 3, 2, 45 };
             
             
-            ArrayDuplicates.GetDupe2(dupeArray);
+            ArrayDuplicates.GetDupe(sampleIntList);
             Console.ReadKey();
         }
     }

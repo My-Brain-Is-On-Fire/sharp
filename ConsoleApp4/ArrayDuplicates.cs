@@ -42,6 +42,17 @@ namespace CodeWars
             
         }
 
+        public static void GetDupe(List<int> input)
+        {
+            var dupes = input.GroupBy(g => g).Where(g => g.Count() > 1).SelectMany(g=>g).ToList();
+
+            foreach (int element in dupes)
+            {
+                
+                Console.WriteLine($"Number {element} duplicated.");
+            }
+        }
+
 
     }
 }
