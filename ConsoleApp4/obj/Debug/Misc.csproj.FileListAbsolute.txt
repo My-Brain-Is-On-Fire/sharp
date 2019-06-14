@@ -1,0 +1,7 @@
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\Misc.csprojAssemblyReference.cache
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\Misc.csproj.CoreCompileInputs.cache
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\CodeWars.exe.config
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\CodeWars.exe
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\CodeWars.pdb
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\CodeWars.exe
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\CodeWars.pdb
