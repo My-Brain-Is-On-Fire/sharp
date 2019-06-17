@@ -44,6 +44,8 @@
   <ItemGroup>
     <Compile Include="Abbreviate a Two Word Name.cs" />
     <Compile Include="ArrayDuplicates.cs" />
+    <Compile Include="ArrayDuplicatesStream.cs" />
+    <Compile Include="ArrayDuplicatesStreamTests.cs" />
     <Compile Include="ArrayFind10Sums.cs" />
     <Compile Include="BinToDec.cs" />
     <Compile Include="Reduce but Grow.cs" />
