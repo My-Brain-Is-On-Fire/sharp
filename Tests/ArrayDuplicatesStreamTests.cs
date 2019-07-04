@@ -10,11 +10,15 @@ namespace CodeWars
     [TestFixture]
     public class DummyTest
     {
+        
+
         [Test]
         public void DupeCount_FiveDupe_ReturnsFive()
         {
-            int[] fivedupes = new int[] { 97, 92, 81, 60, 92, 81, 60 };
+            string numbers = "1 2 2 3 3 3 4 4 4 4 0 sixty-nine";
+            byte[] byteArray = Encoding.ASCII.GetBytes(numbers);
             //Assert.AreEqual(5, Class1.DupeCounter());
+            return str.Where(c => !vowels.Contains(c).To
         }
     }
 

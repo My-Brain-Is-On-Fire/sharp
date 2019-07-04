@@ -10,16 +10,8 @@ namespace CodeWars
     {
         static void Main(string[] args)
         {
+            ListFiles.GetLargeFiles();
 
-            //Console.WriteLine("Input something");
-            //string input = Console.ReadLine();
-            //Console.WriteLine(Kata.AlphabetPosition(input));
-            List<int> sampleIntList = new List<int>() { 1, 2, 1, 1, 3, 3, 2, 45 };
-
-            int[] dupeArray = { 1, 2, 1, 1, 3, 3, 2, 45 };
-            
-            
-            ArrayDuplicates.GetDupe(sampleIntList);
             Console.ReadKey();
         }
     }

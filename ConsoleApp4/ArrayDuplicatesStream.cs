@@ -9,8 +9,11 @@ namespace CodeWars
 {
     public class ArrayDuplicatesStream
     {
-        StreamReader reader = new StreamReader(stream);
-        string text = reader.ReadToEnd();
-
+        
+        public void GetSeenDuplicates(MemoryStream stream)
+        {
+            StreamReader reader = new StreamReader(stream);
+            string text = reader.ReadToEnd();
+        }
     }
 }

@@ -32,6 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HumanBytes, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7e7098c9d4a6572c, processorArchitecture=MSIL">
+      <HintPath>..\packages\HumanBytes.2.0.0\lib\netstandard2.0\HumanBytes.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,9 +49,9 @@
     <Compile Include="Abbreviate a Two Word Name.cs" />
     <Compile Include="ArrayDuplicates.cs" />
     <Compile Include="ArrayDuplicatesStream.cs" />
-    <Compile Include="ArrayDuplicatesStreamTests.cs" />
     <Compile Include="ArrayFind10Sums.cs" />
     <Compile Include="BinToDec.cs" />
+    <Compile Include="ListFiles.cs" />
     <Compile Include="Reduce but Grow.cs" />
     <Compile Include="Enough.cs" />
     <Compile Include="Replace With Alphabet Position.cs" />
@@ -57,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

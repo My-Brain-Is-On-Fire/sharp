@@ -1,0 +1,12 @@
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\CodeWars.exe.config
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\CodeWars.exe
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\CodeWars.pdb
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\TasksLibrary.csprojAssemblyReference.cache
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\TasksLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\CodeWars.exe
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\CodeWars.pdb
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\HumanBytes.dll
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\HumanBytes.pdb
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\HumanBytes.xml
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\fr\HumanBytes.resources.dll
+C:\Users\Dilvish\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\TasksLibrary.csproj.CopyComplete
