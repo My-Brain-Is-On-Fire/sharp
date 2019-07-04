@@ -52,6 +52,7 @@
     <Compile Include="ArrayFind10Sums.cs" />
     <Compile Include="BinToDec.cs" />
     <Compile Include="ListFiles.cs" />
+    <Compile Include="ListFilesPrinter.cs" />
     <Compile Include="Reduce but Grow.cs" />
     <Compile Include="Enough.cs" />
     <Compile Include="Replace With Alphabet Position.cs" />
