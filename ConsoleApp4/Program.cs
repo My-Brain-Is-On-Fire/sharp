@@ -10,7 +10,10 @@ namespace CodeWars
     {
         static void Main(string[] args)
         {
-            ListFiles.GetLargeFiles();
+            Console.Write("Please enter the file path: ");
+            string path = Console.ReadLine();
+
+            ListFiles.GetLargeFiles(path);
 
             Console.ReadKey();
         }

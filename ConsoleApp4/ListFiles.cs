@@ -8,11 +8,11 @@ using HumanBytes;
 
 namespace CodeWars
 {
-    class ListFiles
+    public class ListFiles
     {
-        static string dirPath = @"E:\Книги";
+        static int filterSize = 5 * 1024 * 1024; // 5MB
 
-        public static void GetLargeFiles()
+        public static void GetLargeFiles(string dirPath)
         {
             DirectoryInfo dir = new DirectoryInfo(dirPath);
 
@@ -20,14 +20,11 @@ namespace CodeWars
 
             foreach (FileInfo fi in allFiles)
             {
-                if (fi.Length > 5242880) // 5MB
+                if (fi.Length > filterSize)
                 {
                     Console.WriteLine($"{fi.ToString()} \n Size: {fi.Length.Bytes()}");
                 }
-                
             }
-
         }
-       
     }
 }
