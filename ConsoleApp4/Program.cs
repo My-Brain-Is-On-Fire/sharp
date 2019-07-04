@@ -13,7 +13,8 @@ namespace CodeWars
             Console.Write("Please enter the file path: ");
             string path = Console.ReadLine();
 
-            ListFiles.GetLargeFiles(path);
+            var filelister = new FileLister();
+            filelister.GetLargeFiles(path);
 
             Console.ReadKey();
         }

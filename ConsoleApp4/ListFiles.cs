@@ -8,11 +8,11 @@ using HumanBytes;
 
 namespace CodeWars
 {
-    public class ListFiles
+    public class FileLister
     {
         static int filterSize = 5 * 1024 * 1024; // 5MB
 
-        public static void GetLargeFiles(string dirPath)
+        public void GetLargeFiles(string dirPath)
         {
             DirectoryInfo dir = new DirectoryInfo(dirPath);
 
