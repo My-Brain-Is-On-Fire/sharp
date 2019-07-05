@@ -22,7 +22,7 @@ namespace CodeWars
             return File.ReadLines(FilePath).ElementAt(lineNumber - 1).ToString();
         }
 
-        
+        // rest is in FileLineInputter.cs
 
     }
 }
