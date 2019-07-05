@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksLibrary", "ConsoleApp4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{FB96566E-770E-453B-A157-5D1EEB8C265D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars", "CodeWars\CodeWars.csproj", "{4636161D-77B5-479B-8DAD-E8F891F69F6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FB96566E-770E-453B-A157-5D1EEB8C265D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB96566E-770E-453B-A157-5D1EEB8C265D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB96566E-770E-453B-A157-5D1EEB8C265D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4636161D-77B5-479B-8DAD-E8F891F69F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4636161D-77B5-479B-8DAD-E8F891F69F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4636161D-77B5-479B-8DAD-E8F891F69F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4636161D-77B5-479B-8DAD-E8F891F69F6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

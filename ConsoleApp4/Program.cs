@@ -10,11 +10,7 @@ namespace CodeWars
     {
         static void Main(string[] args)
         {
-            Console.Write("Please enter the file path: ");
-            string path = Console.ReadLine();
-
-            var printer = new ListFilesPrinter();
-            printer.Print(path);
+            FileLineInputter.Input();
 
             Console.ReadKey();
         }

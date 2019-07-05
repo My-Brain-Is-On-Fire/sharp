@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7270663A-FCA1-434E-8D2D-37C29AAC1C42}</ProjectGuid>
+    <ProjectGuid>{4636161D-77B5-479B-8DAD-E8F891F69F6F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>CodeWars</RootNamespace>
     <AssemblyName>CodeWars</AssemblyName>
@@ -32,10 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HumanBytes, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7e7098c9d4a6572c, processorArchitecture=MSIL">
-      <HintPath>..\packages\HumanBytes.2.0.0\lib\netstandard2.0\HumanBytes.dll</HintPath>
-    </Reference>
-    <Reference Include="netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,21 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayDuplicates.cs" />
-    <Compile Include="ArrayDuplicatesStream.cs" />
-    <Compile Include="FileLineInputter.cs" />
-    <Compile Include="FileLineRetreiver.cs" />
-    <Compile Include="FileLister.cs" />
-    <Compile Include="FileListPrinter.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Abbreviate a Two Word Name.cs" />
+    <Compile Include="BinToDec.cs" />
+    <Compile Include="Enough.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reduce but Grow.cs" />
+    <Compile Include="Replace With Alphabet Position.cs" />
+    <Compile Include="SumMixedArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

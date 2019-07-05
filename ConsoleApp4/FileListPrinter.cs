@@ -7,7 +7,7 @@ using HumanBytes;
 
 namespace CodeWars
 {
-    public class ListFilesPrinter
+    public class FileListPrinter
     {
         public void Print(string path)
         {
@@ -18,10 +18,6 @@ namespace CodeWars
             {
                 Console.WriteLine($"{item.Key}, {item.Value.Bytes()}");
             }
-
-            
         }
-
-
     }
 }
