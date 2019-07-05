@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodeWars
 {
-    public static class FileLineInputter
+    public static class FileSingleLineOperator
     {
         public static void Input()
         {
@@ -22,10 +22,18 @@ namespace CodeWars
 
                 Console.WriteLine(FileRetreived.LineOutput(lineNumber));
             }
+
+            catch  (FormatException)
+            {
+                Console.WriteLine("Please enter a valid number");
+            }
+
             catch  (ArgumentOutOfRangeException)
             {
                 Console.WriteLine("Your number exceeds number of lines in the file");
             }
+
+
 
             catch (Exception ex)
             {

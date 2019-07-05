@@ -11,14 +11,14 @@ namespace CodeWars
         public static void Ask()
         {
             Console.WriteLine(@"What do you want to do?  
-                1. Read a line 
-                2. Insert a line");
+ 1. Read a line 
+ 2. Insert a line");
 
             int answer = int.Parse(Console.ReadLine());
             switch (answer)
             {
                 case 1:
-                    FileLineInputter.Input();
+                    FileSingleLineOperator.Input();
                     break;
                 case 2:
                     FileLineInserter.Insert();

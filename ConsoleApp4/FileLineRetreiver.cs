@@ -9,17 +9,14 @@ namespace CodeWars
 {
     public class FileLineRetreiver
     {
-        string FilePath { get; set; }
-        int LineNumber { get; set; }
-        public IEnumerable<string> Lines { get; private set; }
+        string FilePath;
+        IEnumerable<string> Lines { get; set; }
 
         public FileLineRetreiver(string filePath)
         {
             if (!File.Exists(filePath))
             {
-                Console.WriteLine($"File {filePath} cannot be found!");
-                Console.ReadKey();
-                Environment.Exit(0);
+                throw new IOException($"File does not exist: {filePath}");
             }
             else
             {
@@ -36,7 +33,7 @@ namespace CodeWars
         public void LineInsert(string text, int lineNumber)
         {
             var LineList = Lines.ToList();
-            LineList[lineNumber] = text;
+            LineList.Insert(lineNumber, text);
             File.WriteAllLines(FilePath, LineList);
         }
     }
