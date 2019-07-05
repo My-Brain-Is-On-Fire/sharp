@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodeWars
 {
-    static class FileLineInputter
+    public static class FileLineInputter
     {
         public static void Input()
         {
@@ -16,11 +16,11 @@ namespace CodeWars
             try
             {
                 string filePath = Console.ReadLine();
-                var FileRetreiver = new FileLineRetreiver(filePath);
+                var FileRetreived = new FileLineRetreiver(filePath);
                 Console.Write("Please enter the line number: ");
                 int lineNumber = int.Parse(Console.ReadLine());
 
-                Console.WriteLine(FileRetreiver.LineOutput(lineNumber));
+                Console.WriteLine(FileRetreived.LineOutput(lineNumber));
             }
             catch  (ArgumentOutOfRangeException)
             {

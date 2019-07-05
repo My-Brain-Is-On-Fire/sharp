@@ -9,20 +9,35 @@ namespace CodeWars
 {
     public class FileLineRetreiver
     {
-        public string FilePath { get; private set; }
-        public int LineNumber { get; private set; }
+        string FilePath { get; set; }
+        int LineNumber { get; set; }
+        public IEnumerable<string> Lines { get; private set; }
 
         public FileLineRetreiver(string filePath)
         {
-            FilePath = filePath;
+            if (!File.Exists(filePath))
+            {
+                Console.WriteLine($"File {filePath} cannot be found!");
+                Console.ReadKey();
+                Environment.Exit(0);
+            }
+            else
+            {
+                FilePath = filePath;
+                Lines = File.ReadLines(FilePath);
+            }
         }
 
         public string LineOutput(int lineNumber)
         {
-            return File.ReadLines(FilePath).ElementAt(lineNumber - 1).ToString();
+            return Lines.ElementAt(lineNumber - 1).ToString();
         }
 
-        // rest is in FileLineInputter.cs
-
+        public void LineInsert(string text, int lineNumber)
+        {
+            var LineList = Lines.ToList();
+            LineList[lineNumber] = text;
+            File.WriteAllLines(FilePath, LineList);
+        }
     }
 }

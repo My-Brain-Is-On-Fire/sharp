@@ -1,8 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CodeWars
 {
@@ -10,7 +6,7 @@ namespace CodeWars
     {
         static void Main(string[] args)
         {
-            FileLineInputter.Input();
+            FileAsker.Ask();
 
             Console.ReadKey();
         }

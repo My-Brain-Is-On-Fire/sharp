@@ -48,7 +48,9 @@
   <ItemGroup>
     <Compile Include="ArrayDuplicates.cs" />
     <Compile Include="ArrayDuplicatesStream.cs" />
+    <Compile Include="FileAsker.cs" />
     <Compile Include="FileLineInputter.cs" />
+    <Compile Include="FileLineInserter.cs" />
     <Compile Include="FileLineRetreiver.cs" />
     <Compile Include="FileLister.cs" />
     <Compile Include="FileListPrinter.cs" />
